@@ -1,0 +1,29 @@
+{
+  "name": "api-movie",
+  "version": "1.0.0",
+  "description": "API en NodeJS permettant de gérer une liste de films",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahkalamiammiam/node-api-movie.git"
+  },
+  "author": "Vianney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahkalamiammiam/node-api-movie/issues"
+  },
+  "homepage": "https://github.com/Ahkalamiammiam/node-api-movie#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
